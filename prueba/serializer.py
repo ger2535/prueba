@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from prueba_german.models import Prueba
+from .models import Prueba
 
 
-class MapsSerializer(serializers.ModelSerializer):
+class PruebaSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Prueba
